@@ -1,0 +1,227 @@
+/*** sectioning elements ***/
+
+body {
+  background-color: #000;
+
+}
+
+header {
+  border: 13px dotted #250000;
+
+}
+
+main {
+
+}
+
+footer {
+  border: 13px dotted #250000;
+
+}
+
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+.orange{
+  background-color: #f96302;
+  color: #fff;
+
+}
+
+.light{
+  background-color: #eee;
+
+}
+
+.white{
+  color: #eee;
+}
+
+.darkred{
+  background-color:#370000;
+}
+
+.lightred{
+  background-color: #7d0000;
+}
+
+.darkorange{
+  background-color: #4a0000;
+}
+
+
+/**** content styles ***/
+
+h1 {
+  font-size: 85px;
+  font-family: 'Cinzel', serif;
+
+
+}
+
+h2 {
+  font-size: 35px;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+h3 {
+  font-size: 65px;
+  color: #fff;
+  font-family: 'Gravitas One', cursive;
+
+}
+
+h4 {
+  font-size: 25px;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+
+
+
+}
+
+blockquote {
+
+}
+
+ol {
+  font-family: 'PT Sans', sans-serif;
+
+
+}
+
+ul {
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+li {
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+caption{
+  font-size: 24px;
+}
+
+tr {
+  border: 5px solid #7d0000;
+
+}
+
+tr.home{
+  background-color:#7d3333;
+}
+
+tr.away{
+  background-color: #ffffff;
+}
+
+th {
+  background-color:#7d0000;
+  padding: 10px;
+  color: #ffffff;
+}
+
+td {
+  padding:15px;
+
+}
+
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    margin: 7px 0;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+}
+/*** image styles ***/
+
+img  {
+
+}
+
+img.social{
+  margin: 10px;
+}
+
+
+
+/*** link styles ***/
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+a:visited {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+
+
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+a:active {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+
+
+}
