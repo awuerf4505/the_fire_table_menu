@@ -201,13 +201,13 @@ img.social{
 a:link {
   color: #fff;
   text-decoration: none;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Cinzel', serif;
 
 }
 
 a:visited {
   color: #fff;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Cinzel', serif;
 
 
 }
@@ -215,13 +215,13 @@ a:visited {
 a:hover {
   color: #fff;
   text-decoration: underline;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Cinzel', serif;
 
 }
 
 a:active {
   color: #fff;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Cinzel', serif;
 
 
 }
