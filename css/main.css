@@ -32,6 +32,10 @@ aside {
 
 }
 
+.center{
+  text-align: center;
+}
+
 .orange{
   background-color: #f96302;
   color: #fff;
