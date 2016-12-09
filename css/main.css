@@ -65,7 +65,8 @@ aside {
 h1 {
   font-size: 85px;
   font-family: 'Cinzel', serif;
-
+  text-align: center;
+  min-width: 320px;
 
 }
 
